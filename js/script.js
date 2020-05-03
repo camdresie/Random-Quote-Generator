@@ -91,9 +91,9 @@ const getRandomQuote = () => {
 
 const printQuote = () => {
   let randomQuote = getRandomQuote();
-  let red = Math.floor(Math.random() * 251);
-  let green = Math.floor(Math.random() * 251);
-  let blue = Math.floor(Math.random() * 251);
+  let red = Math.floor(Math.random() * 257);
+  let green = Math.floor(Math.random() * 257);
+  let blue = Math.floor(Math.random() * 257);
   let newBackground = 
       `<style>body {
         background-color: rgb(${red}, ${green}, ${blue})
