@@ -86,7 +86,7 @@ const getRandomQuote = () => {
 
 /*  This function uses the getRandomQuote function and assembles a string made up of a quote and relevant information
  about that quote and then inserts the string into the 'quote-box' <div> of index.HTML.
- This function also changes the color of the webpage each time a new quote is generated. The Style tag targets the 
+ This function also changes the color of the webpage each time a new quote is generated. The <style> tag targets the 
  body element on the main page, thereby changing the page background color. */
 
 const printQuote = () => {
