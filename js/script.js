@@ -94,11 +94,13 @@ const printQuote = () => {
   let red = Math.floor(Math.random() * 257);
   let green = Math.floor(Math.random() * 257);
   let blue = Math.floor(Math.random() * 257);
+
   let newBackground = 
       `<style>body {
         background-color: rgb(${red}, ${green}, ${blue})
       }
       </style>`;  
+
   let HTML = 
     `<p class="quote">${randomQuote.quote}</p>
     <p class="source">${randomQuote.source}`;
@@ -113,6 +115,7 @@ const printQuote = () => {
   }
   HTML += `</p>`;
   HTML += newBackground;
+  
   return document.getElementById('quote-box').innerHTML = HTML;
 }
 
